@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"com.example.assignment3","l":"ModuleModel"},{"p":"com.example.assignment3","l":"RecordApplication"},{"p":"com.example.assignment3","l":"RecordController"},{"p":"com.example.assignment3","l":"RecordView"},{"p":"com.example.assignment3","l":"StudentModel"}];updateSearchResults();
