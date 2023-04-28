@@ -4,8 +4,15 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class ModuleModelTest {
-    ModuleModel testModule = new ModuleModel("Maths","MX210",2);
+/**
+ * A test suite for the Module class
+ */
+class ModuleTest {
+    Module testModule = new Module("Maths","MX210",2);
+
+    /**
+     * Checks the setName method
+     */
     @Test
     void setName() {
         String validName = "Mathematics";
@@ -14,6 +21,9 @@ class ModuleModelTest {
         assertSame(testModule.getName(), validName);
     }
 
+    /**
+     * Checks the getName method
+     */
     @Test
     void getName() {
         String validName = "Maths";
@@ -22,6 +32,9 @@ class ModuleModelTest {
         assertNotEquals(testModule.getName(),invalidName);
     }
 
+    /**
+     * Checks the setSemester method
+     */
     @Test
     void setSemester() {
         int validSemester = 1;
@@ -30,6 +43,9 @@ class ModuleModelTest {
         assertSame(validSemester,testModule.getSemester());
     }
 
+    /**
+     * Checks the getSemester method
+     */
     @Test
     void getSemester() {
         int validSemester = 2;
@@ -39,6 +55,9 @@ class ModuleModelTest {
         assertNotEquals(invalidSemester,testModule.getSemester());
     }
 
+    /**
+     * Checks the getCode method
+     */
     @Test
     void getCode() {
         String validCode = "MX210";

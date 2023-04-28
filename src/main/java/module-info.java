@@ -11,6 +11,8 @@ module com.example.assignment3 {
     opens model to javafx.fxml;
     exports control;
     opens control to javafx.fxml;
+    opens view to javafx.fxml;
+    exports view;
 
 
 }

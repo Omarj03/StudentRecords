@@ -5,12 +5,16 @@ import javafx.application.Application;
 import javafx.stage.Stage;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
+import view.View;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-class RecordControllerTest {
-    private RecordController control = new RecordController(new RecordView());
+/**
+ * A test suite for the Controller class
+ */
+class ControllerTest {
+    private final Controller control = new Controller(new View());
 
 
     // Starting JavaFX application
@@ -28,7 +32,7 @@ class RecordControllerTest {
     public static void jFXStartup(){
         Thread t = new Thread("JavaFX Thread"){
             public void run(){
-                Application.launch(StartUp.class, new String[0]);
+                Application.launch(StartUp.class);
             }
         };
         t.setDaemon(true);
@@ -37,6 +41,9 @@ class RecordControllerTest {
     }
 
 
+    /**
+     * Ensures the checkSID method works as intended.
+     */
     @Test
     void checkSId() {
         String validSID = "R00215202";

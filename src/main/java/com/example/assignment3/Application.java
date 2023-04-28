@@ -1,27 +1,30 @@
 package com.example.assignment3;
 
 
-import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.image.Image;
 import javafx.stage.Stage;
-import control.RecordView;
+import view.View;
 
 import java.io.IOException;
-public class RecordApplication extends Application {
+
+/**
+ * <H1>Record Application</H1>
+ * The main class of the application
+ */
+public class Application extends javafx.application.Application {
     @Override
     public void start(Stage stage) throws IOException {
         // create the view2
 
-        RecordView view = new RecordView();
+        View view = new View();
         view.viewStartUp();
         // Start the scene
-        stage.setScene(new Scene(view.getRoot(),600,700));
+        stage.setScene(new Scene(view.getRoot(), 600, 700));
         stage.getIcons().add(new Image("file:files/icon.jpg"));
         stage.setTitle("MTU Student Record System");
         stage.show();
     }
-
 
 
 }

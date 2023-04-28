@@ -1,7 +1,8 @@
-package control;
+package view;
 
 
 
+import control.Controller;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.control.*;
@@ -10,13 +11,18 @@ import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import model.Grade;
-import model.ModuleModel;
-import model.StudentModel;
-import control.RecordController;
+import model.Module;
+import model.Student;
 
-public class RecordView {
+
+/**
+ * <H1>Record view</H1>
+ * The view which contains all the JavaFX elements
+ */
+@SuppressWarnings("rawtypes")
+public class View {
     // Controller
-    RecordController control;
+    Controller control;
 
 
     //-----------------
@@ -33,89 +39,88 @@ public class RecordView {
     //-----------------
     // Tab 1
     //-----------------
-    protected VBox tab1Root = new VBox();
+    public VBox tab1Root = new VBox();
 
-    protected GridPane inputGPTab1 = new GridPane();
+    public GridPane inputGPTab1 = new GridPane();
 
-    protected HBox buttonHB = new HBox();
+    public HBox buttonHB = new HBox();
 
     // Input Labels
-    protected Label nameLbl = new Label("Name: ");
-    protected Label sIDLbl = new Label("Student ID: ");
-    protected Label doBLbl = new Label("Date of Birth: ");
-    protected Label spinLbl = new Label("Semester: ");
+    public Label nameLbl = new Label("Name: ");
+    public Label sIDLbl = new Label("Student ID: ");
+    public Label doBLbl = new Label("Date of Birth: ");
+    public Label spinLbl = new Label("Semester: ");
 
     //Input Text Fields
-    protected TextField nameTf = new TextField();
-    protected Spinner<Integer> semSpinT1 = new Spinner<Integer>(
-            new SpinnerValueFactory.IntegerSpinnerValueFactory(1,8));
-    protected TextField sIDTf = new TextField();
-    protected DatePicker doBTf = new DatePicker();
+    public TextField nameTf = new TextField();
+    public Spinner<Integer> semSpinT1 = new Spinner<>(
+            new SpinnerValueFactory.IntegerSpinnerValueFactory(1, 8));
+    public TextField sIDTf = new TextField();
+    public DatePicker doBTf = new DatePicker();
 
     // List Control Buttons
-    protected Button addBtn = new Button("Add");
-    protected Button removeBtn = new Button("Remove");
-    protected Button listBtn = new Button("Refresh List");
+    public Button addBtn = new Button("Add");
+    public Button removeBtn = new Button("Remove");
+    public Button listBtn = new Button("Refresh List");
 
 
     // Display TextArea
-    protected ListView<StudentModel> resultLV = new ListView<StudentModel>();
+    public ListView<Student> resultLV = new ListView<>();
 
     //-----------------
     // Tab 2
     //-----------------
-    protected HBox tab2Root = new HBox();
-    protected ListView selectStudentTab2 = new ListView();
-    protected GridPane inputGPTab2 = new GridPane();
+    public HBox tab2Root = new HBox();
+    public ListView selectStudentTab2 = new ListView();
+    public GridPane inputGPTab2 = new GridPane();
 
-    protected ComboBox<String> studentCBTab2 = new ComboBox<String>();
-    protected ComboBox<String> moduleCBTab2 = new ComboBox<String>();
-    protected TextField gradeTF = new TextField();
-    protected ListView<Grade> GradeLV = new ListView<Grade>();
-    protected Button saveModule = new Button("Add");
-    protected Button removeModule = new Button("Remove");
+    public ComboBox<String> studentCBTab2 = new ComboBox<>();
+    public ComboBox<String> moduleCBTab2 = new ComboBox<>();
+    public TextField gradeTF = new TextField();
+    public ListView<Grade> GradeLV = new ListView<>();
+    public Button saveModule = new Button("Add");
+    public Button removeModule = new Button("Remove");
 
 
     //-----------------
     // Tab 3
     //-----------------
-    protected VBox tab3Root = new VBox();
-    protected GridPane tab3GP = new GridPane();
-    protected ListView studentModuleLV = new ListView();
-    protected ComboBox<String> tab3StudentCB = new ComboBox<String>();
-    protected TextField studentIdTF = new TextField();
-    //    protected Button sortNameBtn = new Button("Sort by name");
-//    protected Button sortGradeBtn = new Button("Sort by grade");
-    protected RadioButton sortPassedRB = new RadioButton("Passed");
-    protected RadioButton sortAllRB = new RadioButton("All");
-    protected ToggleGroup sortModeTG = new ToggleGroup();
+    public VBox tab3Root = new VBox();
+    public GridPane tab3GP = new GridPane();
+    public ListView studentModuleLV = new ListView();
+    public ComboBox<String> tab3StudentCB = new ComboBox<>();
+    public TextField studentIdTF = new TextField();
+    public RadioButton sortPassedRB = new RadioButton("Passed");
+    public RadioButton sortAllRB = new RadioButton("All");
+    public ToggleGroup sortModeTG = new ToggleGroup();
 
 
     //-----------------
     // Tab 4
     //-----------------
-    protected VBox tab4Root = new VBox();
+    public VBox tab4Root = new VBox();
 
-    protected GridPane inputGPTab4 = new GridPane();
+    public GridPane inputGPTab4 = new GridPane();
 
-    protected HBox buttonHBTab4 = new HBox();
-    protected ListView<ModuleModel> resultLVTab4 = new ListView<ModuleModel>();
+    public HBox buttonHBTab4 = new HBox();
+    public ListView<Module> resultLVTab4 = new ListView<>();
 
     // Input Labels
-    protected Label moduleNameLbl = new Label("Enter Name: ");
-    protected Label moduleCodeLbl= new Label("Enter Module Code: ");
-    protected Label moduleSemLbl = new Label("Enter Semester: ");
+    public Label moduleNameLbl = new Label("Enter Name: ");
+    public Label moduleCodeLbl= new Label("Enter Module Code: ");
+    public Label moduleSemLbl = new Label("Enter Semester: ");
 
     //Input Text Fields
-    protected TextField mNameTf = new TextField();
-    protected TextField mCodeTf = new TextField();
-    protected Spinner<Integer> semSpin = new Spinner(new SpinnerValueFactory.IntegerSpinnerValueFactory(1,8));
+    public TextField mNameTf = new TextField();
+    public TextField mCodeTf = new TextField();
+    @SuppressWarnings("unchecked")
+    public Spinner semSpin = new Spinner(new SpinnerValueFactory.IntegerSpinnerValueFactory(1,8));
 
 
     // List Control Buttons
-    protected Button mAddBtn = new Button("Add");
-    protected Button mRemoveBtn = new Button("Remove");
-    protected Button mListBtn = new Button("Refresh List");
+    public Button mAddBtn = new Button("Add");
+    public Button mRemoveBtn = new Button("Remove");
+    public Button mListBtn = new Button("Refresh List");
 
 
 
@@ -123,23 +128,23 @@ public class RecordView {
     // Layout Root
     //-----------------
 
-    protected BorderPane root = new BorderPane();
-    protected TabPane tabPane = new TabPane();
-    protected Tab tab1 = new Tab("Add Students");
-    protected Tab tab2 = new Tab("Update Student Records");
-    protected Tab tab3 = new Tab("View Student Records");
-    protected Tab tab4 = new Tab("Add Modules");
-    protected HBox bottomHB = new HBox();
+    public BorderPane root = new BorderPane();
+    public TabPane tabPane = new TabPane();
+    public Tab tab1 = new Tab("Add Students");
+    public Tab tab2 = new Tab("Update Student Records");
+    public Tab tab3 = new Tab("View Student Records");
+    public Tab tab4 = new Tab("Add Modules");
+    public HBox bottomHB = new HBox();
 
 
     // System Buttons
-    protected HBox systemButtonHB = new HBox();
+    public HBox systemButtonHB = new HBox();
 
-    protected Button breakBtn= new Button("DO NOT TOUCH! (memory leak sim)");
-    protected Button quitBtn= new Button("Quit");
+    public Button breakBtn= new Button("DO NOT TOUCH! (memory leak sim)");
+    public Button quitBtn= new Button("Quit");
 
     // Error Label
-    protected Label errorLbl = new Label();
+    public Label errorLbl = new Label();
 
 
 
@@ -150,11 +155,15 @@ public class RecordView {
     //
     //-----------------
 
-    public RecordView(){
-        this.control = new RecordController(this);
+    public View(){
+        this.control = new Controller(this);
 
     }
 
+    /**
+     * <H1>View Startup</H1>
+     * Configures the JavaFX application on startup
+     */
     public void viewStartUp(){
         //-----------------
         // Root Config
@@ -251,13 +260,8 @@ public class RecordView {
         tab3Root.setSpacing(10);
         tab3Root.getChildren().addAll(tab3GP,studentModuleLV);
 
-        // Confgiure Student Input GP
+        // Configure Student Input GP
         tab3StudentCB.setMinWidth(100);
-//        tab3GP.add(tab3GP,0,0);
-
-//
-//        studentNameTF.setEditable(false);
-//        studentDetailsGP.addRow(2,new Label("Name: "),studentNameTF);
 
         studentIdTF.setEditable(false);
         tab3GP.addRow(0,new Label("Student Number: "),tab3StudentCB);
@@ -267,10 +271,6 @@ public class RecordView {
         tab3GP.setPadding(new Insets(5));
 
 
-//        // Configure Tab 3 Left
-//        tab3Left.getChildren().addAll(tab3, tab3GP);
-//        tab3Left.setSpacing(10);
-//        tab3Left.setPadding(new Insets(10));
 
         // Configure radio buttons
         sortAllRB.setToggleGroup(sortModeTG);
@@ -318,9 +318,7 @@ public class RecordView {
 
 
         // Load Button
-        breakBtn.setOnAction(e -> {
-            control.memoryLeakSim();
-        });
+        breakBtn.setOnAction(e -> control.memoryLeakSim());
 
         // Quit Button
         quitBtn.setOnAction(e -> control.exit());
@@ -363,9 +361,11 @@ public class RecordView {
             control.gradeLVUpdate();
         });
         saveModule.setOnAction(e -> {
-            boolean res = true;
+            boolean res;
 
+            //noinspection StringEquality,UnusedAssignment
             res = gradeTF.getText() != "";
+            //noinspection UnusedAssignment
             res = studentCBTab2.getSelectionModel().getSelectedItem() != null;
             res = moduleCBTab2.getSelectionModel().getSelectedItem() != null;
 
@@ -378,7 +378,7 @@ public class RecordView {
 
         });
         removeModule.setOnAction(e -> {
-            boolean res = true;
+            boolean res;
             res = (GradeLV.getSelectionModel().getSelectedItem() != null);
             if(res)
                 control.removeGrade();
@@ -421,9 +421,7 @@ public class RecordView {
         //-----------------
 
         // Add Button
-        mAddBtn.setOnAction(e -> {
-            control.addModule(mNameTf.getText(),mCodeTf.getText(),semSpin.getValue());
-        });
+        mAddBtn.setOnAction(e -> control.addModule(mNameTf.getText(),mCodeTf.getText(), (Integer) semSpin.getValue()));
 
         // Remove Button
         mRemoveBtn.setOnAction(e -> control.removeModule(resultLVTab4));
@@ -448,9 +446,6 @@ public class RecordView {
     public BorderPane getRoot(){
         return root;
     }
-    public Label getErrorLabel() {return errorLbl;}
-
-
 
 
 }
