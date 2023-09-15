@@ -5,8 +5,8 @@ module com.example.assignment3 {
     requires java.sql;
 
 
-    opens com.example.assignment3 to javafx.fxml;
-    exports com.example.assignment3;
+    opens com.example.finalproject to javafx.fxml;
+    exports com.example.finalproject;
     exports model;
     opens model to javafx.fxml;
     exports control;

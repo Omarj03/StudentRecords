@@ -1,4 +1,4 @@
-package com.example.assignment3;
+package com.example.finalproject;
 
 
 import javafx.scene.Scene;

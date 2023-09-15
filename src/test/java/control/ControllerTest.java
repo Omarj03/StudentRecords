@@ -30,7 +30,7 @@ class ControllerTest {
      */
     @BeforeAll
     public static void jFXStartup(){
-        Thread t = new Thread("JavaFX Thread"){
+        Thread t = new Thread("JavaFX Thread Controller"){
             public void run(){
                 Application.launch(StartUp.class);
             }

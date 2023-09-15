@@ -36,3 +36,6 @@ build/
 
 ### Mac OS ###
 .DS_Store
+/src/main/java/module-info.java
+/files/OOP Final Project - Memory Leak & JUnit testing evalutation.pdf
+/files/Omar Jundi Final Project Demo R00217303.mp4

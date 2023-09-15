@@ -134,8 +134,11 @@ public class Controller {
         boolean res = true;
         String errorStr = "Please enter a valid ";
         int errorCount = 0;
-        LocalDate formattedDate = LocalDate.parse(dateOfBirth, DateTimeFormatter.ofPattern("dd/MM/yyyy"));
+        LocalDate formattedDate =  LocalDate.now();
 
+        if(Objects.equals(dateOfBirth, "")){
+            res = false;
+        }
         if (Objects.equals(name, "")) {
             res = false;
             errorStr += "name";
@@ -149,7 +152,7 @@ public class Controller {
             } else
                 errorStr += ", student ID";
         }
-        if (!checkDoB(formattedDate)) {
+        if (!checkDoB(formattedDate) || Objects.equals(dateOfBirth, "")) {
             res = false;
 
             if (errorCount == 0)
@@ -526,7 +529,7 @@ public class Controller {
     //-----------------
     public void addModule(String name, String moduleCode, int sem) {
         boolean res = true;
-        String errorStr = "please enter a valid";
+        String errorStr = "please enter a valid ";
         int errorCount = 0;
 
         if (Objects.equals(name, "")) {

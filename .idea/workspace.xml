@@ -1,256 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AnalysisUIOptions">
-    <option name="ANALYZE_INJECTED_CODE" value="false" />
-  </component>
-  <component name="ArtifactsWorkspaceSettings">
-    <artifacts-to-build>
-      <artifact name="assignment3:jar" />
-    </artifacts-to-build>
-  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c109bcde-98cd-40ae-837a-4e3df6716654" name="Changes" comment="Before IDE fixups">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/assignment3_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/view/ViewTest.java" afterDir="false" />
+    <list default="true" id="0ffb48a9-054a-406f-b24d-72ab1c373606" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/assignment3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/javadoc/com.example.assignment3/com/example/assignment3/ModuleModel.html" beforeDir="false" afterPath="$PROJECT_DIR$/files/javadoc/com.example.assignment3/com/example/assignment3/ModuleModel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/javadoc/com.example.assignment3/com/example/assignment3/RecordApplication.html" beforeDir="false" afterPath="$PROJECT_DIR$/files/javadoc/com.example.assignment3/com/example/assignment3/RecordApplication.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/javadoc/com.example.assignment3/com/example/assignment3/RecordController.html" beforeDir="false" afterPath="$PROJECT_DIR$/files/javadoc/com.example.assignment3/com/example/assignment3/RecordController.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/javadoc/com.example.assignment3/com/example/assignment3/RecordView.html" beforeDir="false" afterPath="$PROJECT_DIR$/files/javadoc/com.example.assignment3/com/example/assignment3/RecordView.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/javadoc/com.example.assignment3/com/example/assignment3/StudentModel.html" beforeDir="false" afterPath="$PROJECT_DIR$/files/javadoc/com.example.assignment3/com/example/assignment3/StudentModel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/javadoc/allclasses-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/files/javadoc/allclasses-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/javadoc/allpackages-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/files/javadoc/allpackages-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/javadoc/com.example.assignment3/com/example/assignment3/ModuleModel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/javadoc/com.example.assignment3/com/example/assignment3/RecordApplication.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/javadoc/com.example.assignment3/com/example/assignment3/RecordController.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/javadoc/com.example.assignment3/com/example/assignment3/RecordView.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/javadoc/com.example.assignment3/com/example/assignment3/StudentModel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/javadoc/com.example.assignment3/com/example/assignment3/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/javadoc/com.example.assignment3/com/example/assignment3/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/javadoc/com.example.assignment3/module-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/files/javadoc/com.example.assignment3/module-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/javadoc/copy.svg" beforeDir="false" afterPath="$PROJECT_DIR$/files/javadoc/copy.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/javadoc/element-list" beforeDir="false" afterPath="$PROJECT_DIR$/files/javadoc/element-list" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/javadoc/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/files/javadoc/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/javadoc/index-files/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/files/javadoc/index-files/index-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/javadoc/index-files/index-10.html" beforeDir="false" afterPath="$PROJECT_DIR$/files/javadoc/index-files/index-10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/javadoc/index-files/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/files/javadoc/index-files/index-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/javadoc/index-files/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/files/javadoc/index-files/index-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/javadoc/index-files/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/files/javadoc/index-files/index-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/javadoc/index-files/index-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/files/javadoc/index-files/index-5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/javadoc/index-files/index-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/files/javadoc/index-files/index-6.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/files/javadoc/index-files/index-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/files/javadoc/index-files/index-7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/javadoc/index-files/index-8.html" beforeDir="false" afterPath="$PROJECT_DIR$/files/javadoc/index-files/index-8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/javadoc/index-files/index-9.html" beforeDir="false" afterPath="$PROJECT_DIR$/files/javadoc/index-files/index-9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/javadoc/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/files/javadoc/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/javadoc/jquery-ui.overrides.css" beforeDir="false" afterPath="$PROJECT_DIR$/files/javadoc/jquery-ui.overrides.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/javadoc/legal/COPYRIGHT" beforeDir="false" afterPath="$PROJECT_DIR$/files/javadoc/legal/COPYRIGHT" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/javadoc/legal/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/files/javadoc/legal/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/javadoc/member-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/files/javadoc/member-search-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/javadoc/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/files/javadoc/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/javadoc/package-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/files/javadoc/package-search-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/javadoc/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/files/javadoc/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/javadoc/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/files/javadoc/search.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/files/javadoc/serialized-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/files/javadoc/serialized-form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/assignment3/RecordApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/assignment3/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/control/RecordController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/control/RecordView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/View.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/javadoc/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/files/javadoc/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/javadoc/type-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/files/javadoc/type-search-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/assignment3/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/finalproject/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/control/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/Grade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Grade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/ModuleModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Module.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/StudentModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Module.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Module.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/control/RecordControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/control/ControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/View.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/assignment3/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/finalproject/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/control/ControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/control/ControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/model/GradeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/GradeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/model/ModuleModelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/ModuleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/model/ModuleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/ModuleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/view/ViewTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/view/ViewTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-        <option value="JUnit5 Test Class" />
-      </list>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
-  <component name="ProjectId" id="2Nveu0KpZUvGNFrD2TqfK7XYeDA" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2VPNlYxappcFdiMEuSygRXuqeg6" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ToolWindowRun.ShowToolbar": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "C:/Users/Rotte_u6sbm17/OneDrive - mycit.ie/Year 2/Semester 2/Object Oriented Programming/Assignment 3/lib/mysql-connector-j-8.0.32.jar",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.14944835",
-    "project.structure.side.proportion": "0.52068967",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.sourceCode.Java"
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Rotte_u6sbm17\OneDrive - mycit.ie\Year 2\Semester 2\Object Oriented Programming\Assignment 3\src\main\java\view" />
-      <recent name="C:\Users\Rotte_u6sbm17\OneDrive - mycit.ie\Year 2\Semester 2\Object Oriented Programming\Assignment 3\src\main\java\com\example\assignment3" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="control" />
-      <recent name="" />
-    </key>
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="view" />
-      <recent name="model" />
-      <recent name="view_control" />
-    </key>
-  </component>
-  <component name="RunManager" selected="JUnit.GradeTest.getGrade">
-    <configuration name="1GB Memory Launch " type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="com.example.assignment3.Application" />
-      <module name="assignment3" />
-      <option name="VM_PARAMETERS" value="-Xmx1G -Xms1G" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="2GB Memory Launch " type="Application" factoryName="Application">
-      <option name="ALTERNATIVE_JRE_PATH" value="18" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.example.assignment3.Application" />
-      <module name="assignment3" />
-      <option name="VM_PARAMETERS" value="-Xms2G -Xmx2G" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in assignment3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="assignment3" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GradeTest.getGrade" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="assignment3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="model" />
-      <option name="MAIN_CLASS_NAME" value="model.GradeTest" />
-      <option name="METHOD_NAME" value="getGrade" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ModuleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="assignment3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="model" />
-      <option name="MAIN_CLASS_NAME" value="model.ModuleTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StudentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="assignment3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="model" />
-      <option name="MAIN_CLASS_NAME" value="model.StudentTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ViewTest.getRoot" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="assignment3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="view.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="view" />
-      <option name="MAIN_CLASS_NAME" value="view.ViewTest" />
-      <option name="METHOD_NAME" value="getRoot" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="Assignment 3" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="Assignment 3" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Application.1GB Memory Launch " />
-      <item itemvalue="Application.2GB Memory Launch " />
-      <item itemvalue="JUnit.All in assignment3" />
-      <item itemvalue="JUnit.GradeTest.getGrade" />
-      <item itemvalue="JUnit.ModuleTest" />
-      <item itemvalue="JUnit.StudentTest" />
-      <item itemvalue="JUnit.RecordViewTest.getRoot" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.GradeTest.getGrade" />
-        <item itemvalue="JUnit.All in assignment3" />
-        <item itemvalue="JUnit.RecordViewTest.getRoot" />
-        <item itemvalue="JUnit.StudentTest" />
-        <item itemvalue="JUnit.ModuleTest" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c109bcde-98cd-40ae-837a-4e3df6716654" name="Changes" comment="" />
-      <created>1680549204645</created>
+      <changelist id="0ffb48a9-054a-406f-b24d-72ab1c373606" name="Changes" comment="" />
+      <created>1694733909607</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1680549204645</updated>
+      <updated>1694733909607</updated>
+      <workItem from="1694733916136" duration="333000" />
+      <workItem from="1694775670280" duration="40000" />
     </task>
-    <task id="LOCAL-00001" summary="Before IDE fixups">
-      <created>1682675753632</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1682675753632</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Before IDE fixups">
-      <created>1682675765763</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1682675765763</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Before IDE fixups" />
-    <option name="LAST_COMMIT_MESSAGE" value="Before IDE fixups" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>

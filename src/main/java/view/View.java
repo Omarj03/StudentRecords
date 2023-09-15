@@ -368,13 +368,13 @@ public class View {
             //noinspection UnusedAssignment
             res = studentCBTab2.getSelectionModel().getSelectedItem() != null;
             res = moduleCBTab2.getSelectionModel().getSelectedItem() != null;
+            res = gradeTF.getText() != "";
 
             if(res){
                 control.addGrade();
             }
             else
-                control.errorMessage(1.5,"Please ensure student & module are selected, " +
-                        "and grade is entered",errorLbl);
+                control.errorMessage(1.5,"Please complete form",errorLbl);
 
         });
         removeModule.setOnAction(e -> {
